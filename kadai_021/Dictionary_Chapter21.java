@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class Dictionary_Chapter21 {
 	
-	public void serch(String[] serchWord) {
+	public void serch(String[] searchWord) {
 		
 		//HashMapの宣言
 		HashMap<String,String> dictionaryMap = new HashMap<String,String>();
@@ -21,11 +21,11 @@ public class Dictionary_Chapter21 {
 		dictionaryMap.put("cherry", "さくらんぼ");
 		
 		//英単語の検索
-		for(int i = 0; i < serchWord.length ; i++) {
-			if (dictionaryMap.get(serchWord[i]) == null) {
-				System.out.println(serchWord[i] + "は辞書に存在しません");	
+		for(int i = 0; i < searchWord.length ; i++) {
+			if (dictionaryMap.get(searchWord[i]) == null) {
+				System.out.println(searchWord[i] + "は辞書に存在しません");	
 			}else {
-				System.out.println(serchWord[i] + "の意味は" + dictionaryMap.get(serchWord[i]) );
+				System.out.println(searchWord[i] + "の意味は" + dictionaryMap.get(searchWord[i]) );
 			}
 		}
 		
