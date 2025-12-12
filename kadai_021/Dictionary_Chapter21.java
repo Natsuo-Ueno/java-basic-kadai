@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class Dictionary_Chapter21 {
 	
-	public void serch(String[] searchWord) {
+	public void search(String[] searchWord) {
 		
 		//HashMapの宣言
 		HashMap<String,String> dictionaryMap = new HashMap<String,String>();

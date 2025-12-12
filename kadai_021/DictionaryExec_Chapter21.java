@@ -11,7 +11,7 @@ public class DictionaryExec_Chapter21 {
 	String[] searchWordArray = {"apple", "banana", "grape", "orange"};
 	
 	//serchメソッドを実行して検索
-	dictionary.serch(searchWordArray);
+	dictionary.search(searchWordArray);
 	
 	}
 
