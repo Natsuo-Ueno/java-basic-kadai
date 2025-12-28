@@ -8,7 +8,6 @@ public class Jyanken_Chapter28 {
 	String[] handArray = {"r", "s", "p"} ;
 	String myChoice = null;
 	String opponentChoice = null;
-	int cnt = 0;
 	
 	//自分のじゃんけんの手を入力するメソッド
 	public String getMyChoice() {
